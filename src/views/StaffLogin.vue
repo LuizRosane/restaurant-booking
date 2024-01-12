@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>This is the login placeholder!!!</p>
+        <h1>This is the login placeholder!!!</h1>
     </div>
   </template>
   
