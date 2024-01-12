@@ -1,8 +1,15 @@
 <template>
   <div class="app">
     <RestaurantHeader class="centered-header"/>
-    <AboutUs></AboutUs>
-    <Menu></Menu>
+    <Section title="About Us"> 
+      <AboutUs></AboutUs>
+    </Section>
+    <Section title="Menu">
+      <Menu></Menu>
+    </Section>
+    <Section title="Booking">
+      <BookingForm></BookingForm>
+    </Section>
   </div>
 
 </template>
@@ -11,13 +18,17 @@
 import RestaurantHeader from "./components/RestaurantHeader.vue";
 import AboutUs from "./components/AboutUs.vue";
 import Menu from "./components/Menu.vue";
+import Section from "./components/Section.vue";
+import BookingForm from "./components/BookingForm.vue";
 
 
 export default {
   components: {
     RestaurantHeader,
     AboutUs,
-    Menu
+    Menu,
+    Section,
+    BookingForm
   },
 };
 </script>

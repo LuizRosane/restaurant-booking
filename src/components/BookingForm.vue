@@ -1,12 +1,12 @@
 <template>
     <div>
-        <p>This is the menu placeholder!!!</p>
+        <p>This is the booking form placeholder!!!</p>
     </div>
   </template>
   
   <script>
   export default {
-    name: 'Menu',
+    name: 'BookingForm',
   };
 
   </script>
